@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
   <title>Akan Name Generator</title>
   <link rel="stylesheet" href="/css/styles.css" media="all">
   <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
-  
+
+
 </head>
 
 <body>
@@ -18,27 +19,27 @@
           href="https://en.wikipedia.org/wiki/Akan_names" target="_blank">Akan names</a> are derived from Ghanian
         culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day
         in the week they were born. </p>
-     
-        <p>To find out what your Akan name is, proceed to filling the form below and clicking the generate name button.
-     
-          <form class="myform" onsubmit="return getAkanName()">
+
+      <p>To find out what your Akan name is, proceed to filling the form below and clicking the generate name button.
+
+        <form class="myform" onsubmit="return getAkanName()">
           <label for="year-of-birth">
             Year:
             <input id="year-input" type="number" name="year-of-birth" placeholder="YYYY" value="" required>
           </label>
-     
+
           <label for="month-of-birth">
             Month:
             <input id="month-input" type="number" name="month-of-birth" placeholder="MM" value="" required>
           </label>
-     
+
           <label for="day-of-birth">
             Day:
             <input id="day-input" type="number" name="day-of-birth" placeholder="DD" value="" required>
           </label>
-     
+
           <br>
-     
+
           <label for="gender">
             <p>Select your gender: </p>
             Male
@@ -47,14 +48,14 @@
             <input id="female-input" type="radio" name="gender" value="female" required>
 
           </label>
-     
+
           <br><br>
-     
+
           <input id="get-name" type="submit" name="" value="Generate name">
-     
+
           <br><br>
         </form>
-     
+
         <form onsubmit="return clearInput()">
           <input class="clear" type="submit" value="Clear input">
         </form>
@@ -65,8 +66,8 @@
     </div>
   </div>
 
-  <script src="script/script.js"></script>
-
+  <script src="/js/scripts.js"></script>
 </body>
 
 </html>
+
