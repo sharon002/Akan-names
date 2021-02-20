@@ -16,15 +16,21 @@
             <P> Hello there! this is a web application that takes our birthday and calculates the day of the week you
                 were born dependding on your gender and outputs your Aken name </P>
             <p> To find what your akan name is, Fill in the form bellow and click the ganaret button </p>
-     <form class="myform"  onsubmit="return getAkanName()" >
-       <!-- THIS IS WHERE OUR USER WILL FILL IN THERE YEAR-OF-BIRTH -->
-        <label for="Year-of-birth">
-            YEAR:
-            <input type="number" id="year-input" name="year-of-birth" placeholder="YYYY" value=""  >
+            <form class="myform" onsubmit="return getAkanName()">
+                
+                <!-- THIS IS WHERE OUR USER WILL FILL IN THERE YEAR-OF-BIRTH -->
+                <label for="Year-of-birth">
+                    YEAR:
+                    <input type="number" id="year-input" name="year-of-birth" placeholder="YYYY" value="" required>
+                </label>
+                 
+                <!-- THIS IS WHERE OUR USER WILL FILL IN THERE MONTH-OF-BIRTH -->
+                 <label for="Year-of-birth">
+                    YEAR:
+                    <input id="month-input" type="number"  name="month-of-birth" placeholder="MM" value="" required>
+                </label>
 
-        </label>
-    
-    </form>
+            </form>
 
         </div>
 
