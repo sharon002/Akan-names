@@ -55,3 +55,13 @@ h1{
     text-align: center;
 }
 
+.content{
+    background-color: rbg(206,17,38,0.72);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: auto;
+    padding-bottom: 20px;
+box-sizing: 0.5%;
+}
+
