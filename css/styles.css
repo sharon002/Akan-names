@@ -1,0 +1,25 @@
+body{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-image: url('https://www.solidbackgrounds.com/images/3840x2160/3840x2160-baker-miller-pink-solid-color-background.jpg');
+color: black;
+font-size: 17px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 36px;
+    padding-top: 20px;
+    
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+#year-input {
+    border-radius: 5px;
+    
+}
